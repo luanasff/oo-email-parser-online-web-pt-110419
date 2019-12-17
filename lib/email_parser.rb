@@ -26,7 +26,7 @@ class EmailAddressParser
   def parse
     parser = self.new
     parser.parse = email_addresses
-    @all << self 
+    @all << parser
   
 end 
 
