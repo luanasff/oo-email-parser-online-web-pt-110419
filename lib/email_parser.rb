@@ -22,8 +22,10 @@ class EmailAddressParser
     @@all << self
   end
 
-    
-  
+
+  def parse
+    parser = EmailAddressParser.new(email_addresses)
+    parser 
   
 end 
 
