@@ -15,7 +15,7 @@ class EmailAddressParser
   end 
   
   def parse(email_address)
-     parser.parse 
+     parser=parse.new 
      
   end 
     
