@@ -12,13 +12,7 @@ class EmailAddressParser
    @@all = []
    
    
-  def initialize(parse)
-    @parse = parse 
-  end 
   
-  def parse(email_addresses)
-     parser=parse.new 
-     
   end 
     
   
