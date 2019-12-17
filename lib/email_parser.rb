@@ -17,10 +17,7 @@ class EmailAddressParser
     @@all
   end
  
-  def initialize(email_addresses)
-    @email_addresses = email_addresses
-    @@all << self
-  end
+ 
 
 
   def parse
